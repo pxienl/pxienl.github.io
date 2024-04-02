@@ -27,17 +27,14 @@ dependencies:
     specifier: ^1.0.2
     version: 1.0.2
   hexo-renderer-marked:
-    specifier: ^6.0.0
-    version: 6.2.0
+    specifier: ^6.3.0
+    version: 6.3.0
   hexo-renderer-stylus:
     specifier: ^3.0.0
     version: 3.0.1
   hexo-server:
     specifier: ^3.0.0
     version: 3.0.0
-  hexo-theme-landscape:
-    specifier: ^1.0.0
-    version: 1.0.0
   hexo-theme-nexmoe:
     specifier: ^4.2.2
     version: 4.2.2
@@ -2097,7 +2094,7 @@ packages:
   /hexo-generator-json-content@4.2.3:
     resolution: {integrity: sha512-XGqCaTUr6+X8Ty/YvRi+0eh0DJgHcp+lgBhn+Sgyh6ev40P0cwamwJyaZroTdHt8GPoBwbSGVu0H/CdzEf0lFA==}
     dependencies:
-      hexo-util: 3.2.0
+      hexo-util: 3.3.0
       keyword-extractor: 0.0.28
       moment: 2.30.1
     dev: false
@@ -2184,8 +2181,8 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-renderer-marked@6.2.0:
-    resolution: {integrity: sha512-/TwgQCAmqYIyxONzrgqokw0n8rU6W/lCtgbjhWcMoZxhwTaQCYpzaO0+sdu+PKXf9BL4910pg+xAbeFaqqIIrA==}
+  /hexo-renderer-marked@6.3.0:
+    resolution: {integrity: sha512-V/ATcJ+tZHkTJSbScPzzHKmrwVMohU8i9MfuX9jp07Un/NpPtaTP821unP3JPu+O1nNLWMi+3xRbFRdm+8vajw==}
     engines: {node: '>=14'}
     dependencies:
       dompurify: 3.0.8
@@ -2225,10 +2222,6 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-theme-landscape@1.0.0:
-    resolution: {integrity: sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==}
-    dev: false
-
   /hexo-theme-nexmoe@4.2.2:
     resolution: {integrity: sha512-/lO8Esa+SdwnKl8ZDpVb2zhf7y2LPdZzeEIPbsi1w+wQ14OKXfcR7PHOSJNjgvEblVnsmCxduVnihZF6he+GtA==}
     dependencies:
@@ -2261,6 +2254,20 @@ packages:
 
   /hexo-util@3.2.0:
     resolution: {integrity: sha512-iM2eS8P88IUpcgiU2szx584bwhXzjzLLqED6WwDk55wYQZrQh/sni/UJwmoW4pxpgubbISIUPXr4LjwPyJuYzA==}
+    engines: {node: '>=14'}
+    requiresBuild: true
+    dependencies:
+      camel-case: 4.1.2
+      cross-spawn: 7.0.3
+      deepmerge: 4.3.1
+      highlight.js: 11.9.0
+      htmlparser2: 9.1.0
+      prismjs: 1.29.0
+      strip-indent: 3.0.0
+    dev: false
+
+  /hexo-util@3.3.0:
+    resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
     engines: {node: '>=14'}
     requiresBuild: true
     dependencies:
