@@ -3,7 +3,7 @@ title: friends
 layout: py
 ---
 
-## 可爱的孩子们
+## 友链
 
 {% links %}
 [
@@ -25,6 +25,6 @@ layout: py
   "title": "pxienl",
   "link": "https://pxienl.github.io/",
   "img": "https://avatars.githubusercontent.com/pxienl",
-  "des": "对人友爱就算笨拙也没关系吧"
+  "des": "look, a message"
 }
 ```

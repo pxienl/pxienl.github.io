@@ -2,3 +2,13 @@
     --color-primary: #6E8BC6;
     --color-primary-bg: rgba(110, 139, 198,0.15);
 }
+article ul li::before{
+    position: absolute;
+    margin-top: 5px;
+}
+article ul li {
+    line-height: 1.5rem;
+}
+.nexmoe-post-footer {
+    padding: 0;
+}
