@@ -43,6 +43,8 @@ tags: embedded
 # Arithmetic Mean Filter(均值滤波)
 
 均值滤波就是采样 n 个值进行平均值计算
+
+![](../resources/digital-filter-algorithms/Arithmetic_Mean_Filter.svg)
 $$
 \bar{x} = \frac{1}{n} (x_1+ \cdots +x_n)
 $$
@@ -61,6 +63,15 @@ $$
 
 ### Weighted Moving Average (WMA) 加权移动均值
 
+为信号中的每个数据点分配不同的权重，从而允许更新的值对平均值产生更大的影响.
+
+![](../resources/digital-filter-algorithms/Weighted_Moving_Average.svg)
+$$
+\bar{Y}(k) =
+\frac 
+{ \sum_{i=0}^{n-1} C_{i} X_{n-1} }
+{ \sum_{i=0}^{n-1} C_{i} }
+$$
 
 
 ### Exponentially Weighted Average (EWA) 指数加权均值
